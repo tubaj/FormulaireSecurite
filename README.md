@@ -11,7 +11,7 @@ Cet exercice necessite l'installation de XAMPP ou WAMP
 Afin de démarrer lancer ce code:
 
 1. Télécharger le projet Github et l'ouvrir dans le dossier htdocs de votre ordinateur
-2. Importer la base de donnée "securite_tp1.sql"(qui se trouve dans le dossier dans bdd) dans phpmyadmin
+2. Importer la base de donnée "securite_tp1.sql" (qui se trouve dans le dossier bdd) dans phpmyadmin
 3. Ouvrir le fichier connexion.php dans le localhost
 4. Créer un compte ou utiliser celui qui existe déjà
 
