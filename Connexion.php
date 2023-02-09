@@ -42,12 +42,12 @@
 
                   }//fin du if verif mdp
                   else{
-                      $erreur = 'votre mot de passe est incorrecte.';
+                      $erreur = 'votre email et votre mot de passe est incorrecte.';
                       //le mdp est incorrecte, pour des raisons de sécurité et de differences entre les navigateurs, mettre "email et mdp incorrect" 
                   } 
               }//fin du if correspondance
               else{
-                      $erreur = 'Votre email est incorrecte.'; 
+                      $erreur = 'Votre email et votre mot de passe est incorrecte.'; 
                       //l'email est incorrecte, pour des raisons de sécurité et de differences entre les navigateurs, mettre "email et mdp incorrect" 
                   } 
             
