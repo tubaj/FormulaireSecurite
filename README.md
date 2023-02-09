@@ -21,3 +21,12 @@ email: user@gmail.com
 
 mdp  : aaaaaaaa  (il y a huit caractères 'a')
 
+## Information IMPORTANTE
+
+Le fichier database.php permet de se connecter à la base de donnée dans phpmyadmin, le PORT MYSQL de mon ordinateur est 3308
+
+```python
+$port='3308'; //port MySQL
+```
+
+Il faut mettre le PORT MYSQL correspondant à votr ordinateur, c'est souvent le port 3306.
