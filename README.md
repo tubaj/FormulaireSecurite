@@ -29,4 +29,4 @@ Le fichier database.php permet de se connecter à la base de donnée dans phpmya
 $port='3308'; //port MySQL
 ```
 
-Il faut mettre le PORT MYyQL correspondant à votre ordinateur, c'est souvent le port 3306.
+Il faut mettre le PORT MySQL correspondant à votre ordinateur. Habituellement, il correspond au port 3306.
