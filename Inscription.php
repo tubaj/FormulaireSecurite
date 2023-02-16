@@ -42,7 +42,7 @@
                               'email' => $email,
                               'mdp' => $hashmdp,            
                             ));
-                              header('Location:Connexion.php');
+                              header('Location:connexion.php');
                               exit;
                              
                           }// fin if (mdp==mdp2)

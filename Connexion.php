@@ -2,7 +2,7 @@
       session_start();
       include 'database.php'; //connexion à la bdd
       if(isset($_SESSION['email'])){
-          header('Location: Acces.php');
+          header('Location: index.php');
           exit();
       }
 
@@ -32,11 +32,11 @@
                       $_SESSION['mdp'] = $mdp_formulaire;  
                       if ($_SESSION['email'] == $email_formulaire) {
                       
-                        header('Location: Acces.php');
+                        header('Location: index.php');
                         exit();
                       }
                       else {
-                        header('Location: Connexion.php');
+                        header('Location: connexion.php');
                         exit();
                       }
 
@@ -77,7 +77,7 @@
         <div id="container">
             <!-- zone de connexion -->
             
-            <form action="Connexion.php" method="POST">
+            <form action="connexion.php" method="POST">
                 <h1>Formulaire</h1>
                 
                 <label><b>Email: </b></label>
