@@ -12,7 +12,7 @@ Afin de démarrer lancer ce code:
 
 1. Télécharger le projet Github et l'ouvrir dans le dossier htdocs de votre ordinateur
 2. Importer la base de donnée "securite_tp1.sql" (qui se trouve dans le dossier bdd) dans phpmyadmin
-3. Ouvrir le fichier connexion.php dans le localhost
+3. Ouvrir le dossier dans le localhost
 4. Créer un compte ou utiliser celui qui existe déjà
 
 Compte existant :
@@ -29,4 +29,4 @@ Le fichier database.php permet de se connecter à la base de donnée dans phpmya
 $port='3308'; //port MySQL
 ```
 
-Il faut mettre le PORT MYyQL correspondant à votr ordinateur, c'est souvent le port 3306.
+Il faut mettre le PORT MYyQL correspondant à votre ordinateur, c'est souvent le port 3306.
